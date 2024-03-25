@@ -1,18 +1,22 @@
 fun main() {
-arrayfunction(arrayOf(1,2,3,4,5,6,7))
+    arrayfunction(arrayOf(1, 2, 3, 4, 5, 6, 7))
     volumeofsphere(6.0)
-   println(checkPanidrome("madams"))
+    println(checkPanidrome("madams"))
+
+    givenString("Barnie bakes brown bagels and buns")
 
 }
+
 //question1
-fun givenString(sentence:String){
-    sentence.forEach { x:Char
+fun givenString(sentence: String) {
+    println(sentence.replace("b", ""))
 
-    }
+
 }
+
 
 //question2
-fun arrayfunction(numbers:Array<Int>):Int {
+fun arrayfunction(numbers: Array<Int>): Int {
     var sum = 0
 
     numbers.forEach { x ->
@@ -32,19 +36,20 @@ fun arrayfunction(numbers:Array<Int>):Int {
     return counting
 
 }
+
 //question3
-fun volumeofsphere(r:Double){
-    var v=4/3 * 3.14159 * r * r * r
+fun volumeofsphere(r: Double) {
+    var v = 4 / 3 * 3.14159 * r * r * r
     println(v)
 }
+
 //question4
-fun checkPanidrome(word:String):Boolean{
-    var check=word.reversed()
-    if (word== check){
+fun checkPanidrome(word: String): Boolean {
+    var check = word.reversed()
+    if (word == check) {
         return true
-    }
-    else{
-       return false
+    } else {
+        return false
     }
 }
 
