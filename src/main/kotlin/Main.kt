@@ -1,7 +1,7 @@
 fun main() {
     arrayfunction(arrayOf(1, 2, 3, 4, 5, 6, 7))
     volumeofsphere(6.0)
-    println(checkPanidrome("madams"))
+    println(checkPanidrome("madam"))
 
     givenString("Barnie bakes brown bagels and buns")
 
